@@ -2,7 +2,7 @@
 class User extends BaseEntity {
   private $id, $name, $lastName, $email, $password;
 
-  public function __construct($table) {
+  public function __construct() {
     $table = "Users";
     parent::__construct($table);
   }
